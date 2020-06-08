@@ -5,6 +5,14 @@
             {{!-- Widget Sybscribe --}}
             {{> "widget/widget-subscribers"}}
 
+            {{!-- Twitter Timeline --}}
+            <div class="widget-twitter js-twitter-feed sidebar-items u-hide"></div>
+
+	<br>
+
+            {{!-- Tags Cloud --}}
+            {{> "sidebar/sidebar-tag-cloud"}}
+
 
             {{#is "post"}}
                 {{!-- show the last 5 articles on the post page --}}
@@ -21,11 +29,6 @@
             {{/is}}
 
 
-            {{!-- Tags Cloud --}}
-            {{> "sidebar/sidebar-tag-cloud" }}
-
-            {{!-- Twitter Timeline --}}
-            <div class="widget-twitter js-twitter-feed sidebar-items u-hide"></div>
-        </div>
+       </div>
     </div>
 </aside>
